@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=320, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
+<meta name="keywords" content="ゲーム,iPhoneアプリ,Androidアプリ">
+<meta name="description" content="iPhoneゲームを作成しています。">
+<title>忍ゲームズ</title>
+<link rel="stylesheet" type="text/css" href="style.css" media="screen">
+<!-- ▼ファビコン設置箇所▼
+※ファビコンを使用する際はコメントアウトを消してください。-->
+<!-- /<link rel="shortcut icon" href="icon URL.ico"> -->
+<!-- ▲ファビコン設置箇所▲ -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="js/jquery.bxSlider.min.js"></script>
+<script type="text/javascript">
+<!--
+$(function(){
+	$("#slide").bxSlider({
+		auto: true,
+		speed: 800,
+		pause: 5000
+	});
+
+	$(".bx-prev").text("<");
+	$(".bx-next").text(">");
+
+//フッターのアイコン付きメニューを
+//中央寄せにしています。
+//ここを消すと左よりになります。
+	var Liwidth = $(".foot_nav ul li");
+	for(i=0; i<= Liwidth.length; i++){
+		$(".foot_nav ul").width(Liwidth.width()*i+(2*i)-2)
+	};
+});
+-->
+</script>
+<script type="text/javascript" src="js/jquery.biggerlink.js"></script> 
+<script type="text/javascript">
+<!--
+$(function(){
+	$(".cate_list li").biggerlink();
+});
+-->
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48659794-1', 'shinobigames.jp');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+
+<header>
+<center>	
+  <img src="img/header_01.jpg" width="320" height="90" alt="ヘッダー画像">
+  <p class="head_des">iPhoneゲームを作っています。</p>
+</center>
+
+</header>
+
+<section>
+<div id="news">
+
+	<h2><span>NEWS</span></h2>
+
+	<ul id="slide">
+		<li><a href="https://itunes.apple.com/jp/app/id981002642?mt=8">韓流ファン必見！HanaTalk登場！</a></li>
+		<li><a href="https://itunes.apple.com/jp/app/id641929890?mt=8">悩みココ！Ver2.1.0リリース</a></li>
+		<li><a href="https://store.line.me/stickershop/detail?packageId=1004222">LINEスタンプ販売中</a></li>
+	</ul>
+
+</div>
+</section>
+
+<section>
+	<a href="https://store.line.me/stickershop/detail?packageId=1004222" class="banner1 corner">
+		<img src="img/line_stamp_banner.png" width="320" alt="LINEスタンプ">
+	</a>
+	<a href="https://itunes.apple.com/jp/app/yakitori-dao-chang/id859920978?mt=8" class="banner1 corner">
+		<img src="img/banner_yakitori.gif" width="320" alt="やきとり道場">
+	</a>
+	<a href="https://itunes.apple.com/jp/app/kattobi-ren-fa-shu/id828904956?mt=8" class="banner1 corner">
+		<img src="img/banner_kattobi.jpg" width="320" alt="かっとび忍法塾">
+	</a>
+	<a href="https://itunes.apple.com/us/app/feibe!musasabino-shu/id792316069?mt=8" class="banner1 corner">
+		<img src="img/musasabi.jpg" width="320" alt="飛べ！ムササビの術">
+	</a>
+	<a href="https://itunes.apple.com/jp/app/ren-fa-shou-li-jian-tiaobi/id777073929?mt=8" class="banner1 corner">
+		<img src="img/jump.jpg" width="320" alt="忍法手裏剣跳び">
+	</a>
+</section>
+
+<section>
+<ul class="free_list">
+	<li>
+		<a href="https://itunes.apple.com/jp/app/id981002642?mt=8" class="img60">
+		<img src="img/hanatalk_icon.png" width="60" alt="HanaTalk" class="corner">
+		<h3>HanaTalk</h3>
+		<p>韓流ファン必見！！<br>
+韓流大好きな人たちのおしゃべり場、HanaTalkアプリ登場！
+		</p>
+		</a>
+	</li>
+	<li>
+		<a href="http://www.nayamikoko.com/" class="img60">
+		<img src="img/nayami_icon.png" width="60" alt="悩みココ！" class="corner">
+		<h3>悩みココ！</h3>
+		<p>お悩み相談掲示板！<br>
+    悩みがあったら、投稿してみよう！誰かがいいアドバイスくれるかも！？
+		</p>
+		</a>
+	</li>
+	<li>
+		<a href="https://itunes.apple.com/jp/app/yakitori-dao-chang/id859920978?mt=8" class="img60">
+		<img src="img/yakitori_icon.png" width="60" alt="やきとり道場" class="corner">
+		<h3>やきとり道場</h3>
+		<p>
+			やきとり焼いて売上をあげろ！<br />
+			じゃんじゃん焼こう！！
+		</p>
+		</a>
+	</li>
+	<li>
+		<a href="https://itunes.apple.com/jp/app/kattobi-ren-fa-shu/id828904956?mt=8" class="img60">
+		<img src="img/icon_kattobi.png" width="60" alt="かっとび忍法塾" class="corner">
+		<h3>かっとび忍法塾</h3>
+		<p>
+			こすって、こすって、大ジャンプ！<br />
+			かっとんで忍法塾をめざせ！！
+		</p>
+		</a>
+	</li>
+
+	<li>
+		<a href="https://itunes.apple.com/us/app/feibe!musasabino-shu/id792316069?mt=8" class="img60">
+		<img src="img/musasabi_icon.png" width="60" alt="飛べ！ムササビの術" class="corner">
+		<h3>飛べ！ムササビの術</h3>
+		<p>空を自由に駆け巡る！<br>
+ムササビの術で空を自由に飛びまくれ！！
+		</p>
+		</a>
+	</li>
+
+	<li>
+		<a href="https://itunes.apple.com/jp/app/ren-fa-shou-li-jian-tiaobi/id777073929?mt=8" class="img60">
+		<img src="img/shuriken_icon.png" width="60" alt="手裏剣跳び" class="corner">
+		<h3>忍法手裏剣跳び</h3>
+		<p>火影、風葉兄弟が大活躍！<br>
+    跳んでくる手裏剣をジャンプ、ジャンプ、ジャンプ！！
+		</p>
+		</a>
+	</li>
+
+</ul>
+</section>
+
+<div class="ad">
+
+  <div class="banner1">
+  <strong>Special Thanks</strong>
+	<a href="http://maoudamashii.jokersounds.com/">
+	<span>魔王魂</span>
+	</a>
+	<a href="http://www.skipmore.com/sound/">
+	<span>ユウラボ8bitサウンド工房</span>
+	</a>
+  </div>
+</div>
+
+<footer>
+
+	<div class="jump">
+	<a href="index.html" class="goindex"><span>TOP</span></a>
+	</div>
+
+	<div id="copy">
+	Copyright© <a href="http://www.shinobigames.jp/">忍GAMES</a>, All rights reserved.<br>
+	Designed by <a href="http://www.bannerbridge.net/">バナーブリッジ</a>
+	</div>
+
+</footer>
+
+</body>
+</html>

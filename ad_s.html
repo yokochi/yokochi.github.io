@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=320, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
+<meta name="keywords" content="ゲーム,iPhoneアプリ,Androidアプリ">
+<meta name="description" content="iPhoneゲームを作成しています。">
+<title>忍ゲームズ</title>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/slide.js"></script>
+<script language="JavaScript" type="text/javascript">
+$(document).ready(function() {
+    $('ul#rotation').slide();
+});
+</script>
+<style>
+body{
+	  margin:0px;
+	  padding:0px;
+}
+
+ul#rotation {
+    margin:0;
+    padding:0;
+    position:relative;
+    list-style:none;
+}
+
+ul#rotation li {
+    margin:0;
+    padding:0;
+    position:absolute;
+    top:0;
+    left:0;
+    display: block;
+    margin: 0 auto;
+}
+
+a img {
+    border-style:none;
+}
+</style>
+</head>
+<body>
+	<ul id="rotation">
+		<li><a href="https://itunes.apple.com/jp/app/kattobi-ren-fa-shu/id828904956?mt=8">
+			<img src="img/banner_kattobi.jpg" width="240" alt="かっとび忍法塾">
+	  </a></li>
+		<li><a href="https://itunes.apple.com/us/app/feibe!musasabino-shu/id792316069?mt=8">
+		  <img src="img/musasabi.jpg" width="240" alt="飛べ！ムササビの術">
+		</a></li>
+		<li><a href="https://itunes.apple.com/jp/app/ren-fa-shou-li-jian-tiaobi/id777073929?mt=8">
+		  <img src="img/jump.jpg" width="240" alt="忍法手裏剣跳び">
+		</a></li>
+	</ul>
+</body>
+</html>
